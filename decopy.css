@@ -1,0 +1,124 @@
+/* Reset browser styles */
+body, ul, li, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #cfb11e;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2f2f2;
+
+}
+
+/* Style the header */
+header {
+    background-color: #e7f08f;
+    height: 80px;
+    padding: 40px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+#header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px; /* same as header height */
+    object-fit: cover;
+  }
+
+header h1 {
+    color:#fff;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+
+
+}
+
+/* Style the navigation bar */
+ul {
+    background-color: #228291;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #228291;
+}
+
+li a:hover {
+    background-color: #0b94e3;
+}
+
+/* .active {
+    background-color: #0ebd8b;
+
+} */
+
+/* Style the container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.container :hover{
+
+    background-color: #bed8e7;
+    text-decoration: underline;
+}
+
+/* Style the category cards */
+.category {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.category h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul li a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
